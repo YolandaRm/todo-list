@@ -1,10 +1,5 @@
-.menuLink{
-    display: block;
-    width: 100%;
-    text-decoration:none;
-  
- }
-.menuItem{
+
+.menu-item{
     width: 100% ;
     margin-bottom: 10px;
     border-style: solid;
@@ -16,3 +11,10 @@
 
 
 }
+
+.menu-item__link{
+    display: block;
+    width: 100%;
+    text-decoration:none;
+  
+ }

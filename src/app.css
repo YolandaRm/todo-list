@@ -1,13 +1,15 @@
-.lista {
+
+.app__navegacion{
+    height: 100%;
+    width: 350px;
+    background-color:#ffb300;
+}
+
+.app__navegacion__lista {
     list-style-type: none;
     margin:0;
     padding:0;
     text-align: center;
     text-justify: left;
 
-}
-.navegacion{
-    height: 100%;
-    width: 350px;
-    background-color:#ffb300;
 }

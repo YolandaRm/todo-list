@@ -3,8 +3,8 @@ import './menuItem.css';
 
 function MenuItem(props){
 return(
-<li className='menuItem'>
- <a href={props.link} className='menuLink'>{props.text}</a>
+<li className='menu-item'>
+ <a href={props.link} className='menu-item__link'>{props.text}</a>
 </li>
 )
 }

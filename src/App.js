@@ -5,8 +5,8 @@ import './app.css';
 function App() {
   return (
 
-    <nav className='navegacion'>
-      <ul className='lista'>
+    <nav className='app__navegacion'>
+      <ul className='app__navegacion__lista'>
        
     <MenuItem text='Tareas' link='#'></MenuItem>
     <MenuItem text='Nueva Tarea' link='#'></MenuItem>

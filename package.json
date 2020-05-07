@@ -11,10 +11,12 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "run-p watch mock",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "mock": "json-server --port=3005 db.json",
+    "watch":  "react-scripts start"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -30,5 +32,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "json-server": "^0.16.1",
+    "npm-run-all": "^4.1.5"
   }
 }

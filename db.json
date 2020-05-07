@@ -1,0 +1,19 @@
+{
+    "tasks": [
+        {
+            "id": 1,
+            "text": "Hacer la compra",
+            "status": "pending"
+        },
+        {
+            "id": 2,
+            "text": "Recoger la pila",
+            "status": "completed"
+        },
+        {
+            "id": 3,
+            "text": "Hacer la comida",
+            "status": "discarded"
+        }
+    ]
+}

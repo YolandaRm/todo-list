@@ -1,0 +1,10 @@
+.menuLink{
+    display: block;
+    width: 100%;
+    text-decoration:none;
+    color: blue; 
+    padding-top: 20px;
+ }
+.menuItem{
+    width: 100%;
+}

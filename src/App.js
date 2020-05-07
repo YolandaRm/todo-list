@@ -1,9 +1,20 @@
 import React from 'react';
+import MenuItem from './menuItem.js';
+import './app.css';
 
 function App() {
   return (
 
-  <h1>HELLO WORLD!!!</h1>
+    <nav className='navegacion'>
+      <ul className='lista'>
+       
+    <MenuItem text='Tareas' link='#'></MenuItem>
+    <MenuItem text='Nueva Tarea' link='#'></MenuItem>
+      
+      </ul>
+
+
+    </nav>
   );
 }
 

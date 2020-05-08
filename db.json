@@ -15,5 +15,17 @@
             "text": "Hacer la comida",
             "status": "discarded"
         }
+    ],
+    "menu-items":[
+        {
+            "id":1,
+            "text": "Lista de tareas",
+            "link": "/"
+        },
+        {
+            "id":2,
+            "text": "Nueva tarea",
+            "link": "/add"
+        }
     ]
 }

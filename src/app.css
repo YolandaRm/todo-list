@@ -11,3 +11,8 @@
     text-align: center;
     text-justify: left;
 }
+.app{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}

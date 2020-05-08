@@ -5,7 +5,7 @@ import TodoCard from './todo-card';
 const item = {
     "id": 1,
     "text": "Hacer la compra",
-    "status": "pending"
+    "status": "completed"
 };
 
 class TodoList extends React.Component {
